@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "cypress": "^10.1.0"
+  },
+    "scripts": {
+      "cypress:open": "cypress open",
+      "cypress:on": "cypress run --browser chrome --e2e --spec cypress/e2e/spec.cy.js --headed"
+    }
+}
